@@ -1,0 +1,45 @@
+/* Google Font Link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Common Style  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+#show-more-btn{
+    display: none;
+}
+/* Error style  */
+#empty-error, #wrong-value-error, #spinner{
+    display: none;
+}
+
+/* Card style  */
+.card{
+    box-shadow: 5px 5px 200px rgba(255, 255, 255, 0.493);
+    border-radius: 20px !important;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+.card:hover{
+    transform: scale(1);
+    transition: transform 2s;
+}
+.img-radius{
+    border-radius: 20px !important;
+}
+.phone-name{
+    font-size: 1.1rem !important;
+}
+.btn-text-cus{
+    font-size: 0.8rem !important;
+}
+/* Other simple style */
+.suggestion{
+    font-size: 0.7rem;
+    opacity: 0.6;
+    color: white;
+}
+#show-all{
+    display: none;
+}
