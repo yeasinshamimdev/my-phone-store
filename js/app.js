@@ -85,7 +85,7 @@ const displayData = (phones) => {
             card(phone, div);
             cardsDiv.appendChild(div);
             
-            // showAllCard.style.display = 'none';
+            showAllCard.style.display = 'none';
         });
     })
 }
